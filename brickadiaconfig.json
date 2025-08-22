@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "DisplayName": "World",
+        "Category": "World and Map",
+        "Description": "This contains the world and map environment that should be used",
+        "Keywords": "world",
+        "FieldName": "world",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "world",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Map",
+        "Category": "World and Map",
+        "Description": "This contains the world and map environment that should be used",
+        "Keywords": "map environment",
+        "FieldName": "Environment",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Environment",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Plate",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Hosting Token",
+        "Category": "Tokens",
+        "Description": "This contains the hosting token, which can be obtained from the brickadia website.",
+        "Keywords": "token hosting",
+        "FieldName": "HostingToken",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "HostingToken",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Player Settings",
+        "Description": "This contains the max amount of players that can join (max 30)",
+        "Keywords": "players max",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8",
+        "EnumValues": {}
+    }
+]
